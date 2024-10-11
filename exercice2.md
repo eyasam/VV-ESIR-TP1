@@ -2,13 +2,13 @@
 
 Among the issues considered solved in the Apache Commons Collections project, we have selected [COLLECTIONS-817](https://issues.apache.org/jira/browse/COLLECTIONS-817?jql=project%20%3D%20COLLECTIONS%20AND%20statusCategory%20%3D%20Done%20ORDER%20BY%20issuetype%20ASC%2C%20status%20ASC%2C%20priority%20ASC%2C%20updated%20DESC) as a bug that has been resolved.
 
-### 1. Bug Identification
+### Bug Identification :
 The issue was related to the **BloomFilter** class method for estimating the cardinality of the Bloom filter using a conversion from **double** to **int**. The method involved **converting a precise value into an imprecise one**, which could lead to **precision loss**.
 
-### 2. Bug Classification
+### Bug Classification :
 The bug is **local**. The issue primarily concerns the estimation of values for Bloom filters and does not affect other parts of the code or general system functionalities.
 
-### 3. Bug Explanation and Solution
+### Bug Explanation and Solution :
 
 **Bug Explanation :**
 - The method was converting a **double** value to an **int**, causing a **loss of precision**.
