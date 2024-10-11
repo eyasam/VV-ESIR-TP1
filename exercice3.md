@@ -25,11 +25,11 @@ No, other tech like **Amazon Prime Video, Hulu, Disney+ and Spotify** also use c
 
 ### Application to Other Organizations :
 
-- **Banks**: Simulate database outages to ensure transaction integrity.
-- **E-commerce Platforms**: test scenarios like website downtime during peak shopping hours to assess customer impact.
-- **Telecommunications**: Inject network latency to observe how calls and data services handle degraded conditions.
+- Banks: Simulate database outages to ensure transaction integrity.
+- E-commerce: test scenarios like website downtime during peak shopping hours to assess customer impact.
+- Telecommunications: Inject network latency to observe how calls and data services handle degraded conditions.
 
 In these cases, the key system variables to observe would include :
-- **system response times**
-- **error rates**
-- **service availability**
+- system response times
+- error rates
+- service availability
