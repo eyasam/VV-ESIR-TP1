@@ -7,22 +7,23 @@ Below is the link :
 
 ### Overview of the Bug :
 
-The article details a **global outage** on **July 19, 2024**, caused by a flawed update to **CrowdStrike's Falcon Sensor**, a cybersecurity tool. This bug impacted around **8.5 million Windows computers and servers** worldwide, disrupting sectors like **airports, hospitals, banks, emergency services**, and **financial markets**.
+The article details a **global outage** on **July 19, 2024** caused by a flawed update to **CrowdStrike's Falcon Sensor** (a cybersecurity tool). This bug impacted around **8.5 million Windows computers and servers** worldwide and disrupting sectors like **airports, hospitals, banks and emergency services**.
 
 ### Nature and Manifestation of the Bug
 
 The bug in the **Falcon Sensor** update led to the infamous **blue screen of death (BSOD)** on affected devices, rendering them inaccessible. 
-This system failure disrupted the functioning of many businesses globally. While the issue was fixed on the same day, it still caused significant downtime and inconvenience.
+This system failure disrupted the functioning of many businesses globally. 
+While the issue was fixed on the same day, it still caused significant downtime and inconvenience.
 
 ### Repercussions of the Bug
 
 **For Clients and Consumers :**
-- Severe disruptions in industries such as **electronic payments, emergency services**, and **air travel**.
-- Loss of access to essential applications, leading to halts in business operations.
+- Severe disruptions in industries such as **electronic payments, emergency services and air travel**.
+- Loss of access to essential applications leading to halts in business operations.
 
 **For CrowdStrike and Microsoft :**
-- **CrowdStrike’s reputation** as a cybersecurity provider took a hit, necessitating immediate action to resolve the situation.
-- **Microsoft** also faced **Azure cloud service outages**, although unrelated to CrowdStrike’s specific issue.
+- **CrowdStrike’s reputation** as a cybersecurity provider took a hit necessitating immediate action.
+**Microsoft** also experienced **Azure cloud service outages** ( these were not connected to CrowdStrike’s specific issue).
 
 ### Could Testing Have Prevented This Bug?
 
