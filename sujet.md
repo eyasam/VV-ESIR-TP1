@@ -12,3 +12,7 @@
 
 ## Answers
 1. The answer is at this link [Exercice 1](https://github.com/eyasam/VV-ESIR-TP1/blob/main/exercice1.md)
+2. The answer is at this link [Exercice 2](https://github.com/eyasam/VV-ESIR-TP1/blob/main/exercice2.md)
+3. The answer is at this link [Exercice 3](https://github.com/eyasam/VV-ESIR-TP1/blob/main/exercice3.md)
+4. The answer is at this link [Exercice 4](https://github.com/eyasam/VV-ESIR-TP1/blob/main/exercice4.md)
+5. The answer is at this link [Exercice 5](https://github.com/eyasam/VV-ESIR-TP1/blob/main/exercice5.md)
