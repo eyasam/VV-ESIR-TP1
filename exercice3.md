@@ -1,24 +1,24 @@
 # Netflix Chaos Engineering
 
-### Concrete Experiments
-Netflix conducts various concrete experiments to test the resilience of its systems and ensure seamless service delivery, even under adverse conditions. Here are some of the key experiments:
+### Concrete Experiments :
+Netflix conducts various concrete experiments to test the resilience of its systems and ensure seamless service delivery. 
 
-- **Chaos Kong**: This large-scale test simulates the failure of an entire **Amazon EC2 region** to evaluate whether Netflix can effectively reroute user traffic to other regions with minimal disruption. These tests are typically conducted on a monthly basis.
+Here are some of the key experiments:
 
-- **Chaos Monkey**: This service randomly shuts down virtual machine instances within the production environment. Its purpose is to motivate engineers to create systems that are resilient to unexpected outages. It operates continuously during weekdays.
+- **Chaos Kong** simulates the failure of an entire **Amazon EC2 region** to evaluate whether Netflix can effectively reroute user traffic to other regions with minimal disruption (conducted on a monthly basis).
+- **Chaos Monkey** shuts down virtual machine instances within the production environment.
+- **Failure Injection Testing** involves engineers deliberately introducing errors into the communication between services.
 
-- **Failure Injection Testing**: In this method engineers deliberately introduce errors into the communication between services. This approach assesses the system's capacity to degrade gracefully in response to faults.
-
-### Experiment Requirements
+### Experiment Requirements :
 The experiments are conducted directly in the **production environment** to simulate real-world conditions. Netflix uses its own tools to manage and monitor these failures. Their reliance on **cloud infrastructure**, specifically Amazon Web Services allows them to conduct these geographically distributed tests effectively.
 
-### Observed Variables
+### Observed Variables :
 - **Service availability :** measuring whether users can continue streaming content seamlessly.
 - **SPS :** tracks how many videos are started each second serving as an overall health indicator of the system.
 - **Latency and CPU Usage:** Identifies performance bottlenecks to maintain optimal system functionality.
 
-### Key Results
-The experiments help improve Netflix's fault tolerance without degrading user experience. They reveal that even in complex systems, failures can be anticipated and managed allowing for predictable and controlled responses to disruptions.
+### Key Results :
+The experiments help improve Netflix fault tolerance without degrading user experience. They reveal that even in complex systems failures can be anticipated and managed allowing for controlled responses to disruptions.
 
 ### Is Netflix the Only Company Performing These Experiments?
 No, other tech like **Amazon Prime Video, Hulu, Disney+ and Spotify** also use chaos engineering techniques to test the resilience of their systems.
