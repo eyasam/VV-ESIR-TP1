@@ -20,5 +20,5 @@ The bug is **local**. The issue primarily concerns the estimation of values for 
 - It is recommended to **refine argument checking** to ensure that the smaller filter is properly merged into the larger filter before performing calculations. This would ensure the **symmetry** of the method and avoid merge errors.
 - Additionally, documentation should explain the expected results when the **number of bits in the filters** differs.
 
-### 4. Addition of New Tests
+### Did the contributors of the project add new tests to ensure that the bug is detected if it reappears in the future?
 The text does not specify whether tests have been included to detect the bug if it reappears in the future.
